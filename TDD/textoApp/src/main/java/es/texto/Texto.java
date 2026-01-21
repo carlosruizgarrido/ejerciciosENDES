@@ -27,7 +27,20 @@ public class Texto {
 		this.contenido = "";
 	}
 
+	public Texto(String contenido, int maxLongitud) {
+		this.contenido = contenido;
+		this.maxLongitud = maxLongitud;
+	}
 
+	public String getContenido() {
+		return contenido;
+	}
+
+	public int longitud() {
+		return contenido.length();
+	}
+
+	
 
 
 }
